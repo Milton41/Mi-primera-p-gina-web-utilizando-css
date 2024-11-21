@@ -1,0 +1,50 @@
+/* Esto es el cuadro donde se van a mostrar los párrafos  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Acá se usa para los párrafos que van dentro del cuadrado y el fondo de la página*/
+body {
+    font-family: 'Aptos', sans-serif;
+    line-height: 1.2;
+    background-color: brown;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*Esto es la imágen de mi perro*/
+.Toby {
+    width: 350px;
+    heifht: 350px;
+    border-radius: 25px;
+}
+
+/*Esto es el contenido principal de la página*/
+main {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/*Esto son las opciones del titulo*/
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #289696;
+}
+
+/*Esto son las opciones del párrafo*/
+p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+}
